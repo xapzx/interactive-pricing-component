@@ -62,7 +62,7 @@ header {
 
 @media (min-width: 900px) {
     body {
-        padding: 4rem 1.5rem;
+        padding: 3rem 1.5rem;
         gap: 3rem;
     }
 
