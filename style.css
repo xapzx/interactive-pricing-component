@@ -294,10 +294,15 @@ input:checked + .slider:before {
 
     .billing-wrapper {
         grid-column: 1 / -1;
+        gap: 1rem;
     }
 
     #slider {
         width: 100%;
+    }
+    
+    .month-title {
+        margin-right: 0.5rem;
     }
 
     .year-discount {
