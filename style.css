@@ -62,7 +62,7 @@ header {
 
 @media (min-width: 900px) {
     body {
-        padding: 3rem 1.5rem;
+        padding: 3rem 1.5rem 0 1.5rem;
         gap: 3rem;
     }
 
@@ -346,7 +346,7 @@ input:checked + .slider:before {
     font-weight: var(--fw-xbold);
     border: none;
     border-radius: 2rem;
-    padding: 0.75rem 2.5rem;
+    padding: 0.75rem 2.875rem;
 }
 
 .start-trial:hover {
