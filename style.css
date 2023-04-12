@@ -169,6 +169,10 @@ input[type='range']::-webkit-slider-runnable-track {
     font-size: 2rem;
     font-weight: var(--fw-xbold);
 }
+
+.price-data:before {
+    content: "$";
+}
   
 .billing-wrapper {
     display: flex;
