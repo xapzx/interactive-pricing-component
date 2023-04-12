@@ -7,7 +7,7 @@
     --clr-cta-text: hsl(226, 100%, 87%);
 
     /* Neutral */
-    --clr-pricing-bg: hsl (0, 0%, 100%);
+    --clr-pricing-bg: hsl(0, 0%, 100%);
     --clr-main-bg: hsl(230, 100%, 99%);
     --clr-sliderbar-empty: hsl(224, 65%, 95%);
     --clr-toggle-bg: hsl(223, 50%, 87%);
@@ -18,4 +18,62 @@
     --fs-base: 0.9375rem;
     --fw-bold: 600;
     --fw-xbold: 800;
+}
+
+body {
+    background-color: var(--clr-main-bg);
+    background-image: url(images/bg-pattern.svg);
+    background-repeat: no-repeat;
+    color: var(--clr-text);
+    font-family: var(--ff-primary);
+    font-size: var(--fs-base);
+    display: grid;
+    gap: 1rem;
+    text-align: center;
+    padding: 2rem 1.5rem;
+}
+
+header {
+    background-image: url(images/pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* margin-top: 2rem; */
+    /* padding: 3rem 0 1rem 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-title {
+    color: var(--clr-text-cta-bg);
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.header-text {
+    font-size: 0.8rem;
+    padding: 0 4.5rem;
+}
+
+main {
+    background-color: var(--clr-pricing-bg);
+}
+
+@media (min-width: 900px) {
+    body {
+        padding: 4rem 1.5rem;
+        gap: 3rem;
+    }
+
+    header {
+        padding: 2.5rem 0;
+    }
+
+    .header-title {
+        font-size: 1.75rem;
+    }
+
+    .header-text {
+        font-size: var(--fs-base);
+    }
 }
