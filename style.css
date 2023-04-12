@@ -282,6 +282,7 @@ input:checked + .slider:before {
 
     .price-wrapper {
         font-size: 1rem;
+        justify-content: flex-end;
     }
 
     .price-data {
@@ -345,7 +346,7 @@ input:checked + .slider:before {
     font-weight: var(--fw-xbold);
     border: none;
     border-radius: 2rem;
-    padding: 0.6rem 2.5rem;
+    padding: 0.75rem 2.5rem;
 }
 
 .start-trial:hover {
